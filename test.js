@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+  console.log("here");
   const form = document.querySelector('form[action="https://mis.apexcollege.edu.np/login/validate"]');
-
+ console.log("here");
   if (!form) return; 
 
   form.addEventListener("submit", (e) => {
